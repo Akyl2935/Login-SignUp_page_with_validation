@@ -9,19 +9,19 @@ function Login() {
         <div className = "mb-3">
 
           <label htmlFor = "email">Email</label>
-          <input type = "email" placeholder = "enter email"/>
+          <input type = "email" placeholder = "enter email" className = "form-control rounded-0"/>
 
         </div>
 
           <div className = "mb-3">
-          <label htmlFor = "password">Password</label>
+          <label htmlFor = "password"><strong>Password</strong></label>
           <input type = "password" placeholder = "enter password"/>
 
         </div>
 
-        <button className = "btn btn-success">Login</button>
+        <button className = "btn btn-success w-100 rounded - 0"><strong>Login</strong></button>
         <p>You are agree to our terms and policy</p>
-        <button className = "btn btn-default border">Create Account</button>
+        <button className = "btn btn-default border w-100 bg-light rounded - 0">Create Account</button>
 
         </form>
       </div>
