@@ -8,7 +8,7 @@ function Login() {
 
         <div className = "mb-3">
 
-          <label htmlFor = "email">Email</label>
+          <label htmlFor = "email"><strong>Email</strong></label>
           <input type = "email" placeholder = "enter email" className = "form-control rounded-0"/>
 
         </div>
@@ -19,7 +19,7 @@ function Login() {
 
         </div>
 
-        <button className = "btn btn-success w-100 rounded - 0"><strong>Login</strong></button>
+        <button className = "btn btn-success w-100 rounded - 0">Login</button>
         <p>You are agree to our terms and policy</p>
         <button className = "btn btn-default border w-100 bg-light rounded - 0">Create Account</button>
 
